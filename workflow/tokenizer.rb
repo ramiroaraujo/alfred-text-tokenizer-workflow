@@ -2,11 +2,9 @@ class Tokenizer
 
   def initialize
     @separators = [
-        {:key => 'newline', :regex => /(?:\n)+|(?:\r)+|(?:\r\n)+/m},
-        {:key => 'tab', :regex => /(?:\t)+/m},
-        {:key => 'comma', :regex => /,/m},
-        {:key => 'semicolon', :regex => /;/m},
-        {:key => 'space', :regex => /(?: )+/m},
+        {:key => 'comma', :regex => /[[:space:]]*,[[:space:]]*/m},
+        {:key => 'semicolon', :regex => /[[:space:]]*;[[:space:]]*/m},
+        {:key => 'blank', :regex => /[[:space:]]+/m},
     ]
 
     @joins = [
