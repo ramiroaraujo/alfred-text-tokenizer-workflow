@@ -57,7 +57,9 @@ class Tokenizer
       f[:num] = text.scan(f[:regex]).size
       f
     end
-    separators.sort_by! { |x| x[:num] }.reverse!
+
+    separators = separators.sort_by { |x| x[:num] }
+    separators.reverse!
 
     separators.first
   end

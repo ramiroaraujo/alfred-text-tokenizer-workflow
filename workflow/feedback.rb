@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 
-require_relative "bundle/bundler/setup"
+require "bundle/bundler/setup"
 require "alfred"
-require_relative "tokenizer"
+require "tokenizer"
 
 query = ARGV[0]
 

@@ -1,5 +1,7 @@
 # Tokenizer Workflow for Alfred app
 
+> Note, this is the pre-mavericks branch. For the Mavericks branch go to the [master branch](https://github.com/ramiroaraujo/alfred-transmit-workflow)
+
 Workflow for tokenizing different text value input, and converting them back to a string with multiple syntaxes. It was basically thought as a text exapander to convert
 space separated works into quoted comma separated values, to use in different languages, mostly because of envy of Ruby's array notation ```%w()```.
 
