@@ -8,16 +8,16 @@ require "tokenizer"
 query = ARGV[0]
 
 separators_info = [
-    {:key => 'comma_quote', :title => 'Tokenize by commas, surrounded by quotes', :subtitle => 'Separate values by comma, and have the values enclosed in quotes'},
-    {:key => 'comma', :title => 'Tokenize by commas', :subtitle => 'Separate values by comma'},
-    {:key => 'space_quote', :title => 'Tokenize by spaces, surrounded by quotes', :subtitle => 'Separate values by space, and have the values enclosed in quotes'},
-    {:key => 'space', :title => 'Tokenize by spaces', :subtitle => 'Separate values by space'},
-    {:key => 'newline_quote', :title => 'Tokenize by new lines, surrounded by quotes', :subtitle => 'Separate values by new lines, and have the values enclosed in quotes'},
-    {:key => 'newline', :title => 'Tokenize by new lines', :subtitle => 'Separate values by new lines'},
-    {:key => 'tab_quote', :title => 'Tokenize by tabs, surrounded by quotes', :subtitle => 'Separate values by tab, and have the values enclosed in quotes'},
-    {:key => 'tab', :title => 'Tokenize by tabs', :subtitle => 'Separate values by tab'},
-    {:key => 'semicolon_quote', :title => 'Tokenize by semicolons, surrounded by quotes', :subtitle => 'Separate values by semicolon, and have the values enclosed in quotes'},
-    {:key => 'semicolon', :title => 'Tokenize by semicolons', :subtitle => 'Separate values by semicolon'},
+    {:key => 'comma_quote', :title => 'Join by commas, surrounded by quotes', :subtitle => 'Join values by comma, and have the values enclosed in quotes'},
+    {:key => 'comma', :title => 'Join by commas', :subtitle => 'Join values by comma'},
+    {:key => 'space_quote', :title => 'Join by spaces, surrounded by quotes', :subtitle => 'Join values by space, and have the values enclosed in quotes'},
+    {:key => 'space', :title => 'Join by spaces', :subtitle => 'Join values by space'},
+    {:key => 'newline_quote', :title => 'Join by new lines, surrounded by quotes', :subtitle => 'Join values by new lines, and have the values enclosed in quotes'},
+    {:key => 'newline', :title => 'Join by new lines', :subtitle => 'Join values by new lines'},
+    {:key => 'tab_quote', :title => 'Join by tabs, surrounded by quotes', :subtitle => 'Join values by tab, and have the values enclosed in quotes'},
+    {:key => 'tab', :title => 'Join by tabs', :subtitle => 'Join values by tab'},
+    {:key => 'semicolon_quote', :title => 'Join by semicolons, surrounded by quotes', :subtitle => 'Join values by semicolon, and have the values enclosed in quotes'},
+    {:key => 'semicolon', :title => 'Join by semicolons', :subtitle => 'Join values by semicolon'},
 ]
 
 Alfred.with_friendly_error do |alfred|
