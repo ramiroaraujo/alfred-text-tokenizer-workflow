@@ -10,7 +10,18 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>42D05639-3F0F-4760-8214-317167E4173D</string>
+				<string>C0D01658-13A0-4045-B2B4-ED32165565D9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>C0D01658-13A0-4045-B2B4-ED32165565D9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>47EB6865-50F3-467E-9C6F-20E8EDE2A6AC</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -21,7 +32,7 @@
 	<key>createdby</key>
 	<string>Ramiro Araujo</string>
 	<key>description</key>
-	<string>Text-expander workflow for converting space separated strings into quoted and comma separated values</string>
+	<string>Text-expander workflow for converting between several text lists syntax into several others</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -34,13 +45,13 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
-				<integer>62</integer>
+				<integer>4</integer>
 				<key>keyword</key>
 				<string>tokenize</string>
 				<key>runningsubtext</key>
 				<string>working...</string>
 				<key>script</key>
-				<string>/usr/bin/ruby ./main.rb {query}</string>
+				<string>/usr/bin/ruby ./feedback.rb "{query}"</string>
 				<key>subtext</key>
 				<string>will try to auto detect separator used</string>
 				<key>title</key>
@@ -60,25 +71,32 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<true/>
-				<key>output</key>
+				<key>escaping</key>
+				<integer>4</integer>
+				<key>script</key>
+				<string>/usr/bin/ruby ./convert.rb "{query}"</string>
+				<key>type</key>
 				<integer>0</integer>
-				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>Ruby Script</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>42D05639-3F0F-4760-8214-317167E4173D</string>
+			<string>C0D01658-13A0-4045-B2B4-ED32165565D9</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>47EB6865-50F3-467E-9C6F-20E8EDE2A6AC</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -90,12 +108,17 @@
 		<key>21557827-8003-42B7-A042-16D4C9278FEC</key>
 		<dict>
 			<key>ypos</key>
-			<real>140</real>
+			<real>10</real>
 		</dict>
-		<key>42D05639-3F0F-4760-8214-317167E4173D</key>
+		<key>47EB6865-50F3-467E-9C6F-20E8EDE2A6AC</key>
 		<dict>
 			<key>ypos</key>
-			<real>140</real>
+			<real>10</real>
+		</dict>
+		<key>C0D01658-13A0-4045-B2B4-ED32165565D9</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>
