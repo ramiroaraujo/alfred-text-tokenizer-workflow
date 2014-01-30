@@ -42,29 +42,15 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>4</integer>
-				<key>keyword</key>
-				<string>tokenize</string>
-				<key>runningsubtext</key>
-				<string>working...</string>
-				<key>script</key>
-				<string>/usr/bin/ruby ./feedback.rb "{query}"</string>
-				<key>subtext</key>
-				<string>will try to auto detect separator used</string>
-				<key>title</key>
-				<string>Enter or paste content to be tokenized</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
+				<key>autopaste</key>
 				<true/>
+				<key>clipboardtext</key>
+				<string></string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
+			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>21557827-8003-42B7-A042-16D4C9278FEC</string>
+			<string>47EB6865-50F3-467E-9C6F-20E8EDE2A6AC</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -88,15 +74,29 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>4</integer>
+				<key>keyword</key>
+				<string>tokenize</string>
+				<key>runningsubtext</key>
+				<string>working...</string>
+				<key>script</key>
+				<string>/usr/bin/ruby ./feedback.rb "{query}"</string>
+				<key>subtext</key>
+				<string>will try to auto detect separator used</string>
+				<key>title</key>
+				<string>Enter or paste content to be tokenized</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
 				<true/>
-				<key>clipboardtext</key>
-				<string></string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>47EB6865-50F3-467E-9C6F-20E8EDE2A6AC</string>
+			<string>21557827-8003-42B7-A042-16D4C9278FEC</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
