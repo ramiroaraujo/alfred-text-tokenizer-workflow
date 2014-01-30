@@ -38,7 +38,7 @@ class Tokenizer
     separator = detect_separator text
     @data = text.split separator[:regex]
 
-    if @data.all? { |v| /^('|").*\1$/ =~ v }
+    if @data.all? { |v| /^('|"|`).*\1$/ =~ v }
       @data.map! { |v| v = v[1..-2] }
     end
     self
@@ -52,7 +52,6 @@ class Tokenizer
 
   private
   def detect_separator text
-    # @todo cambiar usando @separators attribute
     separators = @separators.map do |f|
       f[:num] = text.scan(f[:regex]).size
       f
