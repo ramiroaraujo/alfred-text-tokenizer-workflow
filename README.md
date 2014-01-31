@@ -1,4 +1,4 @@
-# Tokenizer Workflow for Alfred app
+# Text Tokenizer Workflow for Alfred app
 
 Workflow for tokenizing different text value input, and converting them back to a string with multiple syntaxes. It was basically thought as a text exapander to convert
 space separated works into quoted comma separated values, to use in different languages, mostly because of envy of Ruby's array notation ```%w()```.
