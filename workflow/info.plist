@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
@@ -32,11 +32,11 @@
 	<key>createdby</key>
 	<string>Ramiro Araujo</string>
 	<key>description</key>
-	<string>Text-expander workflow for converting between several text lists syntax into several others</string>
+	<string>Text tokenizer workflow for converting between several text lists syntax into several others</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Tokenize</string>
+	<string>Text Tokenizer</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -60,7 +60,7 @@
 				<key>escaping</key>
 				<integer>4</integer>
 				<key>script</key>
-				<string>/usr/bin/ruby ./convert.rb "{query}"</string>
+				<string>/usr/bin/ruby ./convert.rb &quot;{query}&quot;</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -83,7 +83,7 @@
 				<key>runningsubtext</key>
 				<string>working...</string>
 				<key>script</key>
-				<string>/usr/bin/ruby ./feedback.rb "{query}"</string>
+				<string>/usr/bin/ruby ./feedback.rb &quot;{query}&quot;</string>
 				<key>subtext</key>
 				<string>will try to auto detect separator used</string>
 				<key>title</key>
@@ -108,17 +108,17 @@
 		<key>21557827-8003-42B7-A042-16D4C9278FEC</key>
 		<dict>
 			<key>ypos</key>
-			<real>10</real>
+			<real>10.0</real>
 		</dict>
 		<key>47EB6865-50F3-467E-9C6F-20E8EDE2A6AC</key>
 		<dict>
 			<key>ypos</key>
-			<real>10</real>
+			<real>10.0</real>
 		</dict>
 		<key>C0D01658-13A0-4045-B2B4-ED32165565D9</key>
 		<dict>
 			<key>ypos</key>
-			<real>10</real>
+			<real>10.0</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>
