@@ -17,9 +17,9 @@ When the input string is tokenizable you'll be prompted with different output op
 Select any output format and the generated text will be copied to the clipboard and pasted in the front most app.
 
 ## Installation
-For OS X 10.9 Mavericks, Download the [alfred-text-tokenizer-workflow.alfredworkflow](https://github.com/ramiroaraujo/alfred-text-tokenizer-workflow/raw/master/alfred-text-tokenizer-workflow.alfredworkflow) and import to Alfred 2.
+For OS X 10.9 Mavericks, Download the [alfred-text-tokenizer.alfredworkflow](https://github.com/ramiroaraujo/alfred-text-tokenizer-workflow/raw/master/alfred-text-tokenizer.alfredworkflow) and import to Alfred 2.
 
-For Previous OS X Versions, Download the [alfred-text-tokenizer-workflow.alfredworkflow](https://github.com/ramiroaraujo/alfred-text-tokenizer-workflow/raw/pre-mavericks/alfred-text-tokenizer-workflow.alfredworkflow) and import to Alfred 2.
+For Previous OS X Versions, Download the [alfred-text-tokenizer.alfredworkflow](https://github.com/ramiroaraujo/alfred-text-tokenizer-workflow/raw/pre-mavericks/alfred-text-tokenizer.alfredworkflow) and import to Alfred 2.
 
 ## Changelog
 * _2014-01-29_ - Released
