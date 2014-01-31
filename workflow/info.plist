@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.tumblr.ramiroaraujo.alfred-tokenize-workflow</string>
+	<string>com.tumblr.ramiroaraujo.alfred-text-tokenizer-workflow</string>
 	<key>connections</key>
 	<dict>
 		<key>21557827-8003-42B7-A042-16D4C9278FEC</key>
@@ -122,6 +122,6 @@
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string>https://github.com/ramiroaraujo/alfred-tokenize-workflow</string>
+	<string>https://github.com/ramiroaraujo/alfred-text-tokenizer-workflow</string>
 </dict>
 </plist>
