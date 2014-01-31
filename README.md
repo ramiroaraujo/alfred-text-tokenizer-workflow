@@ -1,4 +1,4 @@
-# Tokenizer Workflow for Alfred app
+# Text Tokenizer Workflow for Alfred app
 
 > Note, this is the pre-mavericks branch. For the Mavericks branch go to the [master branch](https://github.com/ramiroaraujo/alfred-text-tokenizer-workflow)
 
