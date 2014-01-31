@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/alfred-tokenize-workflow.iml" filepath="$PROJECT_DIR$/alfred-tokenize-workflow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alfred-text-tokenizer-workflow.iml" filepath="$PROJECT_DIR$/alfred-text-tokenizer-workflow.iml" />
     </modules>
   </component>
 </project>

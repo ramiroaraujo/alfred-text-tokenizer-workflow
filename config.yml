@@ -6,8 +6,8 @@ id: alfred-text-tokenizer-workflow
 # base domain
 domain: com.tumblr.ramiroaraujo
 
-name: Tokenize
-description: Text-expander workflow for converting between several text lists syntax into several others
+name: Text Tokenizer
+description: Text tokenizer workflow for converting between several text lists syntax into several others
 created_by: Ramiro Araujo
 website: https://github.com/ramiroaraujo/alfred-text-tokenizer-workflow
 readme: readme
