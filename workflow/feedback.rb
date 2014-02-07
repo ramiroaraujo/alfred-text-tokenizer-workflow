@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 
-require_relative "bundle/bundler/setup"
-require "alfred"
-require_relative "tokenizer"
+require_relative 'bundle/bundler/setup'
+require 'alfred'
+require_relative 'tokenizer'
 
 query = ARGV[0]
 
@@ -20,13 +20,15 @@ separators_info = [
     {:key => 'semicolon', :title => 'Join by semicolons', :subtitle => 'Join values by semicolon'},
 ]
 
+# @todo remove some unused options and add a last option to specify a delimiter in a _next_ alfred operation. It should temporarily write the input text and check if existent at begining. Prompt for separator if existent, and immediately delete data, even if no action is taken.
+
 Alfred.with_friendly_error do |alfred|
   fb = alfred.feedback
 
   tokenizer = Tokenizer.new
 
   # checks for a valid separator
-  if !tokenizer.check query
+  unless tokenizer.check query
     fb.add_item({
                     :uid => '',
                     :title => 'No separator or enough data detected',
