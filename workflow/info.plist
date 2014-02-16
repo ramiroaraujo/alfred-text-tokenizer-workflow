@@ -32,7 +32,7 @@
 	<key>createdby</key>
 	<string>Ramiro Araujo</string>
 	<key>description</key>
-	<string>Text-expander workflow for converting between several text lists syntax into several others</string>
+	<string>Text tokenizer workflow for converting between several text lists syntax into several others</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
